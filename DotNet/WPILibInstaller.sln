@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2011
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPILibInstaller", "WPILibInstaller\WPILibInstaller.csproj", "{393350C6-4346-41E6-8AE5-939574E45578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPILibInstaller", "WPILibInstaller\WPILibInstaller.csproj", "{393350C6-4346-41E6-8AE5-939574E45578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MavenMetaDataFixer", "MavenMetaDataFixer\MavenMetaDataFixer.csproj", "{5DF64580-2663-4C90-A9A5-41BE928BC23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MavenMetaDataFixer", "MavenMetaDataFixer\MavenMetaDataFixer.csproj", "{5DF64580-2663-4C90-A9A5-41BE928BC23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsUpdater", "ToolsUpdater\ToolsUpdater.csproj", "{FF3FDED3-740C-42F5-8E2F-621E5B749064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolsUpdater", "ToolsUpdater\ToolsUpdater.csproj", "{FF3FDED3-740C-42F5-8E2F-621E5B749064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCode", "SharedCode\SharedCode.csproj", "{1E86F096-9B7D-44EA-ACDB-6F2A3FC10154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedCode", "SharedCode\SharedCode.csproj", "{1E86F096-9B7D-44EA-ACDB-6F2A3FC10154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPILibInstaller.Test", "WPILibInstaller.Test\WPILibInstaller.Test.csproj", "{C8E738F0-3A36-47B0-BB94-D4A021A45EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPILibInstaller.Test", "WPILibInstaller.Test\WPILibInstaller.Test.csproj", "{C8E738F0-3A36-47B0-BB94-D4A021A45EB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,16 +25,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Linux.ActiveCfg = Debug|Linux
-		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Linux.Build.0 = Debug|Linux
-		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Mac.ActiveCfg = Debug|Mac
-		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Mac.Build.0 = Debug|Mac
+		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Linux.ActiveCfg = Debug|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Linux.Build.0 = Debug|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Mac.ActiveCfg = Debug|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Debug|Mac.Build.0 = Debug|Any CPU
 		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Any CPU.Build.0 = Release|Any CPU
-		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Linux.ActiveCfg = Release|Linux
-		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Linux.Build.0 = Release|Linux
-		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Mac.ActiveCfg = Release|Mac
-		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Mac.Build.0 = Release|Mac
+		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Linux.ActiveCfg = Release|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Linux.Build.0 = Release|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Mac.ActiveCfg = Release|Any CPU
+		{393350C6-4346-41E6-8AE5-939574E45578}.Release|Mac.Build.0 = Release|Any CPU
 		{5DF64580-2663-4C90-A9A5-41BE928BC23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DF64580-2663-4C90-A9A5-41BE928BC23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF64580-2663-4C90-A9A5-41BE928BC23D}.Debug|Linux.ActiveCfg = Debug|Any CPU
@@ -49,16 +49,16 @@ Global
 		{5DF64580-2663-4C90-A9A5-41BE928BC23D}.Release|Mac.Build.0 = Release|Any CPU
 		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Linux.ActiveCfg = Debug|Linux
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Linux.Build.0 = Debug|Linux
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Mac.ActiveCfg = Debug|Mac
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Mac.Build.0 = Debug|Mac
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Linux.ActiveCfg = Debug|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Linux.Build.0 = Debug|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Mac.ActiveCfg = Debug|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Debug|Mac.Build.0 = Debug|Any CPU
 		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Linux.ActiveCfg = Release|Linux
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Linux.Build.0 = Release|Linux
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Mac.ActiveCfg = Release|Mac
-		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Mac.Build.0 = Release|Mac
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Linux.ActiveCfg = Release|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Linux.Build.0 = Release|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Mac.ActiveCfg = Release|Any CPU
+		{FF3FDED3-740C-42F5-8E2F-621E5B749064}.Release|Mac.Build.0 = Release|Any CPU
 		{1E86F096-9B7D-44EA-ACDB-6F2A3FC10154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E86F096-9B7D-44EA-ACDB-6F2A3FC10154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E86F096-9B7D-44EA-ACDB-6F2A3FC10154}.Debug|Linux.ActiveCfg = Debug|Any CPU
