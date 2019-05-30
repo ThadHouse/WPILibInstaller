@@ -43,9 +43,9 @@
             this.vscodeText = new System.Windows.Forms.Label();
             this.vsCodeFileLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
+            //
             // performInstallButton
-            // 
+            //
             this.performInstallButton.Location = new System.Drawing.Point(22, 567);
             this.performInstallButton.Margin = new System.Windows.Forms.Padding(6);
             this.performInstallButton.Name = "performInstallButton";
@@ -55,9 +55,9 @@
             this.performInstallButton.UseVisualStyleBackColor = true;
             this.performInstallButton.Visible = false;
             this.performInstallButton.Click += new System.EventHandler(this.performInstallButton_Click);
-            // 
+            //
             // vscodeCheck
-            // 
+            //
             this.vscodeCheck.AutoSize = true;
             this.vscodeCheck.Location = new System.Drawing.Point(21, 162);
             this.vscodeCheck.Margin = new System.Windows.Forms.Padding(6);
@@ -67,9 +67,9 @@
             this.vscodeCheck.Text = "Visual Studio Code";
             this.vscodeCheck.UseVisualStyleBackColor = true;
             this.vscodeCheck.CheckedChanged += new System.EventHandler(this.vscodeCheck_CheckedChanged);
-            // 
+            //
             // javaCheck
-            // 
+            //
             this.javaCheck.AutoSize = true;
             this.javaCheck.Checked = true;
             this.javaCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -80,9 +80,9 @@
             this.javaCheck.TabIndex = 8;
             this.javaCheck.Text = "Java JDK/JRE";
             this.javaCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -90,9 +90,9 @@
             this.label1.Size = new System.Drawing.Size(581, 125);
             this.label1.TabIndex = 9;
             this.label1.Text = resources.GetString("label1.Text");
-            // 
+            //
             // vscodeButton
-            // 
+            //
             this.vscodeButton.Enabled = false;
             this.vscodeButton.Location = new System.Drawing.Point(283, 162);
             this.vscodeButton.Margin = new System.Windows.Forms.Padding(6);
@@ -102,17 +102,17 @@
             this.vscodeButton.Text = "Select/Download VS Code";
             this.vscodeButton.UseVisualStyleBackColor = true;
             this.vscodeButton.Click += new System.EventHandler(this.vscodeButton_Click);
-            // 
+            //
             // progressBar1
-            // 
+            //
             this.progressBar1.Location = new System.Drawing.Point(26, 612);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(6);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(663, 44);
             this.progressBar1.TabIndex = 11;
-            // 
+            //
             // gradleCheck
-            // 
+            //
             this.gradleCheck.AutoSize = true;
             this.gradleCheck.Checked = true;
             this.gradleCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -123,9 +123,9 @@
             this.gradleCheck.TabIndex = 12;
             this.gradleCheck.Text = "Gradle";
             this.gradleCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // cppCheck
-            // 
+            //
             this.cppCheck.AutoSize = true;
             this.cppCheck.Checked = true;
             this.cppCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -136,9 +136,9 @@
             this.cppCheck.TabIndex = 13;
             this.cppCheck.Text = "C++ Compiler";
             this.cppCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // toolsCheck
-            // 
+            //
             this.toolsCheck.AutoSize = true;
             this.toolsCheck.Checked = true;
             this.toolsCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -149,9 +149,9 @@
             this.toolsCheck.TabIndex = 14;
             this.toolsCheck.Text = "Tools and Utilities";
             this.toolsCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // wpilibCheck
-            // 
+            //
             this.wpilibCheck.AutoSize = true;
             this.wpilibCheck.Checked = true;
             this.wpilibCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -162,9 +162,9 @@
             this.wpilibCheck.TabIndex = 16;
             this.wpilibCheck.Text = "WPILib Dependencies";
             this.wpilibCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // vsCodeWpiExtCheck
-            // 
+            //
             this.vsCodeWpiExtCheck.AutoSize = true;
             this.vsCodeWpiExtCheck.Checked = true;
             this.vsCodeWpiExtCheck.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -174,9 +174,9 @@
             this.vsCodeWpiExtCheck.TabIndex = 18;
             this.vsCodeWpiExtCheck.Text = "Visual Studio Code Extensions";
             this.vsCodeWpiExtCheck.UseVisualStyleBackColor = true;
-            // 
+            //
             // vscodeText
-            // 
+            //
             this.vscodeText.AutoSize = true;
             this.vscodeText.Location = new System.Drawing.Point(278, 262);
             this.vscodeText.Name = "vscodeText";
@@ -184,18 +184,18 @@
             this.vscodeText.TabIndex = 19;
             this.vscodeText.Text = "Click button above to open\r\ndownloaded VS Code file.\r\nYou can copy the zip file t" +
     "o \r\nanother system if you need.\r\nIt is called:";
-            // 
+            //
             // vsCodeFileLabel
-            // 
+            //
             this.vsCodeFileLabel.AutoSize = true;
             this.vsCodeFileLabel.Location = new System.Drawing.Point(278, 387);
             this.vsCodeFileLabel.Name = "vsCodeFileLabel";
             this.vsCodeFileLabel.Size = new System.Drawing.Size(230, 25);
             this.vsCodeFileLabel.TabIndex = 20;
             this.vsCodeFileLabel.Text = "OfflineVsCodeFiles.zip";
-            // 
+            //
             // MainForm
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 679);
@@ -212,7 +212,6 @@
             this.Controls.Add(this.javaCheck);
             this.Controls.Add(this.vscodeCheck);
             this.Controls.Add(this.performInstallButton);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MainForm";
             this.Text = "WPILib Installer";

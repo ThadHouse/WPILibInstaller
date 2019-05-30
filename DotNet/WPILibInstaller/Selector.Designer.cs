@@ -35,18 +35,18 @@
             this.progressBar4 = new System.Windows.Forms.ProgressBar();
             this.progressBar5 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(408, 75);
             this.label1.TabIndex = 0;
             this.label1.Text = "Would you like to download VS Code,\r\nor select an existing VS Code Download?\r\n\r\n";
-            // 
+            //
             // downloadButton
-            // 
+            //
             this.downloadButton.Location = new System.Drawing.Point(17, 115);
             this.downloadButton.Name = "downloadButton";
             this.downloadButton.Size = new System.Drawing.Size(350, 139);
@@ -54,9 +54,9 @@
             this.downloadButton.Text = "Download";
             this.downloadButton.UseVisualStyleBackColor = true;
             this.downloadButton.Click += new System.EventHandler(this.downloadButton_Click);
-            // 
+            //
             // selectButton
-            // 
+            //
             this.selectButton.Location = new System.Drawing.Point(373, 115);
             this.selectButton.Name = "selectButton";
             this.selectButton.Size = new System.Drawing.Size(350, 138);
@@ -64,23 +64,23 @@
             this.selectButton.Text = "Select Existing\r\nDownload\r\n";
             this.selectButton.UseVisualStyleBackColor = true;
             this.selectButton.Click += new System.EventHandler(this.selectButton_Click);
-            // 
+            //
             // progressBar4
-            // 
+            //
             this.progressBar4.Location = new System.Drawing.Point(373, 201);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(100, 23);
             this.progressBar4.TabIndex = 3;
-            // 
+            //
             // progressBar5
-            // 
+            //
             this.progressBar5.Location = new System.Drawing.Point(373, 230);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(100, 23);
             this.progressBar5.TabIndex = 3;
-            // 
+            //
             // Selector
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(736, 289);
@@ -89,7 +89,6 @@
             this.Controls.Add(this.selectButton);
             this.Controls.Add(this.downloadButton);
             this.Controls.Add(this.label1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Selector";
             this.Text = "Selector";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Selector_FormClosing);
