@@ -248,7 +248,7 @@ namespace WPILibInstaller
                 object shDesktop = "Desktop";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC VS Code {upgradeConfig.FrcYear}.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC VS Code";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "vscode", "Code.exe");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -258,7 +258,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC VS Code {upgradeConfig.FrcYear}.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC VS Code";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "vscode", "Code.exe");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -275,7 +275,7 @@ namespace WPILibInstaller
                 object shDesktop = "Desktop";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC Shuffleboard.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC Shuffleboard";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "shuffleboard.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -285,7 +285,7 @@ namespace WPILibInstaller
                 object shDesktop = "Desktop";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC SmartDashboard.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC SmartDashboard";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "smartdashboard.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -295,7 +295,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC Shuffleboard.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC Shuffleboard";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "shuffleboard.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -305,7 +305,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC SmartDashboard.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC SmartDashboard";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "smartdashboard.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -316,7 +316,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC OutlineViewer.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC OutlineViewer";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "outlineviewer.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -326,7 +326,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC RobotBuilder.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC RobotBuilder";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "robotbuilder.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -336,7 +336,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC PathWeaver.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut for FRC PathWeaver";
                 shortcut.TargetPath = Path.Combine(frcHomePath, "tools", "pathweaver.vbs");
                 shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
@@ -353,7 +353,7 @@ namespace WPILibInstaller
                 object shDesktop = "StartMenu";
                 WshShell shell = new WshShell();
                 string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC Home.lnk";
-                IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+                IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
                 shortcut.Description = "Shortcut to FRC Home Folder";
                 shortcut.TargetPath = frcHomePath;
                 shortcut.Arguments = "/Arguments:Shortcut";
@@ -369,13 +369,13 @@ namespace WPILibInstaller
             object shDesktop = "StartMenu";
             WshShell shell = new WshShell();
             string shortcutAddress = shell.SpecialFolders.Item(ref shDesktop) + $"\\FRC {upgradeConfig.FrcYear}\\FRC Developer Command Prompt {upgradeConfig.FrcYear}.lnk";
-            IWshShortcut shortcut = shell.CreateShortcut(shortcutAddress);
+            IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutAddress);
             shortcut.Description = "Shortcut for FRC Development Command Prompt";
             shortcut.TargetPath = @"%comspec%";
 
             shortcut.Arguments = $"/k \"{Path.Combine(frcHomePath, "frccode", $"frcvars{upgradeConfig.FrcYear}.bat")}\"";
             object shDocuments = "MyDocuments";
-            shortcut.WorkingDirectory = shell.SpecialFolders.Item(ref shDocuments);
+            shortcut.WorkingDirectory = (string)shell.SpecialFolders.Item(ref shDocuments);
             shortcut.IconLocation = Path.Combine(frcHomePath, upgradeConfig.PathFolder, "wpilib-256.ico") + ",0";
             shortcut.Save();
 #endif
